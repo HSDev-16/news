@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  box-shadow: 0 0 20px #00000085;
+  position: fixed;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.option{
+  height: 28px;
+  width: 28px;
+  margin-right: 15px;
+  border-radius: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.option:hover{
+  background-color: #E8E8E8;
+}
+.option span{
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+}
+.option .close1{
+    width: 35px;
+    height: 6px;
+    background-color: red;
+    border-radius: 100px;
+    transform: rotate(45deg);
+    transform-origin: 26% 98%;
+}
+.option .close2{
+    width: 35px;
+    height: 6px;
+    background-color: red;
+    border-radius: 100px;
+    transform: rotate(-45deg);
+    transform-origin: 23% 5%;
+}
+nav .logo img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  align-items: center;
+}
+nav .logo h1{
+  color: #FF0000;
+  margin-left: 10px;
+  font-size: 20pt;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container ul{
+  width: 95%;
+  list-style: none;
+}
+.container ul li{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #00000085;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container ul li:hover{
+  background-color: #F1F1F1;
+  box-shadow: none;
+}
+.container ul li img{
+  width: 100%;
+  border-radius: 10px;
+}
+.title{
+  width: 97%;
+} 
+
+nav ul {
+  opacity: 0;
+  width: 170px;
+  list-style: none;
+  position: absolute;
+  padding: 5px;
+  right: 65px;
+  top: 13px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00000085;
+  transition: 0.2s ease-in-out;
+}
+nav ul li{
+  padding: 5px;
+  border-radius: 10px;
+  margin: 7px;
+}
+nav ul li:hover{
+    background-color: #F1F1F1;
+}

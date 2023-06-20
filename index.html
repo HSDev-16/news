@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>News</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="news.jpg" alt="" />
+      <h1>News</h1>
+    </div>
+    <div id="option" onclick="option()" class="option">
+      <span id="span1"></span>
+      <span id="span2"></span>
+      <span id="span3"></span>
+    </div>
+    <ul  id="option_list">
+      <li onclick="fetch_indo()">Indonesian News</li>
+      <li onclick="fetch_world()">International News</li>
+    </ul>
+  </nav> 
+  
+  <br><br><br>
+
+  
+  <div class="container">
+    
+    <ul id="item">
+
+    </ul>
+
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
